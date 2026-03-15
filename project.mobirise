@@ -9097,6 +9097,31 @@
         {
           "alias": false,
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#c1c1c1",
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#1b1e23\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Favorite VR projects:</b></p><p><b><br></b></p><p><b>Pools of the Deep VR</b> - an atmospheric exploration game in surreal spaces: <a href=\"https://3dvisuals.github.io/portfolio/videogame.html\" target=\"_blank\">Link\n</a></p><p><b>Virtual Factory</b> - a PCVR project to showcase the layout of an automated factory. It works in multiplayer,\n&nbsp;<span style=\"font-size: 1rem;\">various colleagues can connect and walk / talk / point and measure in the same space. <a href=\"https://www.youtube.com/watch?si=TdduE82Mi6plkpsa&v=Wi6FxA18qqw&feature=youtu.be\" target=\"_blank\">Link&nbsp;</a></span></p><p><b>VR Interior</b> - a high quality walk through of a house with IKEA furniture. <a href=\"https://www.youtube.com/watch?v=UbtebimPFhg\" target=\"_blank\">Link\n</a></p><p><b>VR Tunnel inspection</b> - a project I did for Afry where by using 360 cameras one can inspect the train tunnels\n&nbsp;<span style=\"font-size: 1rem;\">in Gothenburg and mark the distance of important damages. The app is used with or without a VR headset in&nbsp;</span><span style=\"font-size: 1rem;\">the office, reduces drastically the need of having multiple visits. <a href=\"https://www.youtube.com/watch?v=Q2Q9WW1Om7I\" target=\"_blank\">Link&nbsp;</a></span></p><p><b>SKF 360 Museum</b> - captured in 360 for viewing with VR and without. A virtual visit of the museum. <a href=\"https://youtu.be/Zl8E1GJ7BxY?si=9BFh0rIEubsvwP2p\" target=\"_blank\">Link\n</a></p><p><b>VR Truck</b> - a standalone project for SKF India. Show the truck hub components in a simplified experience for\n&nbsp;<span style=\"font-size: 1rem;\">people that has never tried VR (no controls, just gaze). <a href=\"https://www.youtube.com/watch?v=Eu0wR_oAAbY\" target=\"_blank\">Link&nbsp;</a></span></p><p><b>VR Demo</b> - for beginners without a PC. Runs on standalone Quest2/3 and it shows basic interactivity like open\n&nbsp;<span style=\"font-size: 1rem;\">doors, draw, push buttons to watch videos, etc. <a href=\"https://www.youtube.com/watch?v=jWjnAdkdNLE\">Link&nbsp;</a></span></p><p><b>VR of my apartment</b> - a project for me, helped me to plan the layout and test the furniture before buying. <a href=\"https://www.youtube.com/watch?v=xSa3Wbt1kfU\" target=\"_blank\">Link</a>\n</p><p><b>VR mining machines </b>- assembly a machine and learn its parts. Its generic and simplified but it can go much\n&nbsp;<span style=\"font-size: 1rem;\">deeper. <a href=\"https://www.youtube.com/watch?v=t_uczKefjRw\" target=\"_blank\">Link</a></span></p><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\"><b>Favorite Interactive projects:</b></span></p><p><span style=\"font-size: 1rem;\"><b><br></b></span></p><p><b>SKF Aerospace showcase</b>&nbsp;- Designed for touchscreens to be used at the Paris Air Show 2024. <a href=\"https://3dvisuals.github.io/interactive/\" target=\"_blank\">Link\n</a></p><p><b>Porsche Car configurator</b> project - change colors, rims, etc in an interactive real time configurator.&nbsp;<a href=\"https://www.youtube.com/watch?v=_Ol2bJVf4eY\" target=\"_blank\">Link</a></p><p><br></p><p><b>Favorite Industrial animation projects:</b></p><p><b><br></b></p><p><b>SKF Aerospace</b> - animation for the Paris Air Show 2024 to showcase aircraft and helicopter parts. <a href=\"https://3dvisuals.github.io/portfolio/skf_aerospace.html\" target=\"_blank\">Link</a></p><p><b>SKF Truck Hub Unit</b> - bold animation with voiceover to show the new Hub. <a href=\"https://3dvisuals.github.io/portfolio/truckhub.html\" target=\"_blank\">Link</a></p><p><b>SKF Antiroll Fin</b> - boat animation to show the usage of these types of fins. <a href=\"https://3dvisuals.github.io/portfolio/skf_fin.html\" target=\"_blank\">Link</a></p><p><b>Automotive</b> - some car animations. <a href=\"https://youtu.be/Ig6-sCEwxfg?si=OO_Uhmh3D8aWobxb\" target=\"_blank\">Link</a></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-14b",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "uXHK92BBcF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
@@ -9757,31 +9782,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "uXHK8A3IQa",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            },
-            ".mbr-text": {
-              "color": "#c1c1c1",
-              "text-align": "left"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#1b1e23\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"></div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-14b",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "uXHK92BBcF",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -13707,7 +13707,7 @@
             }
           },
           "_name": "header16",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#1b1e23\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Video Game Design</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Pools of the deep VR</b><br><br>- Proficiency in Unity Engine<br>- Experience in Environment design<br>- Experience in VR apps / gaming<br>- Experience in various VR headsets<br>- Knowledge of marketing trends within VR<br>- Extensive use of AI for Vibe Coding<br>- Proficiency in Baking / lighting process<br>- Proficiency in optimization for VR<br>- Usage of Photoshop for creating textues<br>- Usage of Blender for creating 3D models<br>- Experienced in level design for VR<br>- Experienced in video editing for creating trailers<br><br>This is not your typical game. It is inspired in the new wave of liminal explorers with an added adventure element. Take things at your own pace and explore the environments. There will be around 6 levels with different styles. The game will launch on Steam VR.<br><br>Check the design process <a href=\"https://miro.com/app/board/uXjVIbXLH14=/\" target=\"_blank\">here</a>.<br><br>So far I have screenshots from 2 levels...</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#1b1e23\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Video Game Design</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Pools of the deep VR</b><br><br>- Proficiency in Unity Engine<br>- Experience in Environment design<br>- Experience in VR apps / gaming<br>- Experience in various VR headsets<br>- Knowledge of marketing trends within VR<br>- Extensive use of AI for Vibe Coding<br>- Proficiency in Baking / lighting process<br>- Proficiency in optimization for VR<br>- Usage of Photoshop for creating textues<br>- Usage of Blender for creating 3D models<br>- Experienced in level design for VR<br>- Experienced in video editing for creating trailers<br><br>This is not your typical game. It is inspired in the new wave of liminal explorers with an added adventure element. Take things at your own pace and explore the environments. You will need to gather geometric figures and coins. There will be around 6 levels with different styles, predominantly dark, atmospheric. The game will launch on Steam VR.<br><br>Check the design process <a href=\"https://miro.com/app/board/uXjVIbXLH14=/\" target=\"_blank\">here</a>.<br><br>So far I have screenshots from 3 levels...</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "uXHkuWHS8U",
@@ -13799,7 +13799,7 @@
             }
           },
           "_name": "gallery4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#1b1e23\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"4\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"4\" mbr-gallery-fourth-count=\"4\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#1b1e23\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"4\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"4\" mbr-gallery-fourth-count=\"4\"></div>\n    </div>\n\n</section>",
           "_anchor": "gallery4-14o",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -13835,7 +13835,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Paris Airshow 2023",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
@@ -13909,6 +13909,58 @@
                 "videoUrl": "https://youtu.be/RmmcMmqw-fE?si=rt1Zyuj03ZjGqs_A",
                 "image": "@PROJECT_PATH@/assets/images/lv2-3-1920x1080.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/lv2-3-1920x1080-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Paris Airshow 2023",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2025824_617462025-8-3_9-52-8.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/RmmcMmqw-fE?si=rt1Zyuj03ZjGqs_A",
+                "image": "@PROJECT_PATH@/assets/images/lv3-1-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lv3-1-1920x1080-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Paris Airshow 2023",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2025824_617462025-8-3_9-52-8.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/RmmcMmqw-fE?si=rt1Zyuj03ZjGqs_A",
+                "image": "@PROJECT_PATH@/assets/images/lv3-3-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lv3-3-1920x1080-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Paris Airshow 2023",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2025824_617462025-8-3_9-52-8.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/RmmcMmqw-fE?si=rt1Zyuj03ZjGqs_A",
+                "image": "@PROJECT_PATH@/assets/images/lv3-8-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lv3-8-1920x1080-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Paris Airshow 2023",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2025824_617462025-8-3_9-52-8.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/RmmcMmqw-fE?si=rt1Zyuj03ZjGqs_A",
+                "image": "@PROJECT_PATH@/assets/images/lv3-5-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lv3-5-1920x1080-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
