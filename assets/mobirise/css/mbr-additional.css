@@ -7755,62 +7755,6 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-vgojdXpFXk {
-  padding-top: 75px;
-  padding-bottom: 0px;
-  background-color: #1b1e23;
-}
-.cid-vgojdXpFXk P {
-  color: #767676;
-}
-.cid-vgojdXpFXk H1 {
-  text-align: left;
-  color: #c1c1c1;
-}
-.cid-vgojdXpFXk .mbr-text,
-.cid-vgojdXpFXk .mbr-section-btn {
-  text-align: left;
-}
-.cid-vgolhl5N9q {
-  background: #1b1e23;
-}
-.cid-vgolhl5N9q .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-vgolhl5N9q .video-block {
-    width: 100% !important;
-  }
-}
-.cid-vgondCXiPX {
-  padding-top: 75px;
-  padding-bottom: 0px;
-  background-color: #1b1e23;
-}
-.cid-vgondCXiPX P {
-  color: #767676;
-}
-.cid-vgondCXiPX H1 {
-  text-align: left;
-  color: #c1c1c1;
-}
-.cid-vgondCXiPX .mbr-text,
-.cid-vgondCXiPX .mbr-section-btn {
-  text-align: left;
-}
-.cid-vgonku00lv {
-  background: #1b1e23;
-}
-.cid-vgonku00lv .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-vgonku00lv .video-block {
-    width: 100% !important;
-  }
-}
 .cid-vgoowb7B01 {
   padding-top: 75px;
   padding-bottom: 0px;
@@ -7836,6 +7780,34 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 768px) {
   .cid-vgooD2hRXz .video-block {
+    width: 100% !important;
+  }
+}
+.cid-vgojdXpFXk {
+  padding-top: 75px;
+  padding-bottom: 0px;
+  background-color: #1b1e23;
+}
+.cid-vgojdXpFXk P {
+  color: #767676;
+}
+.cid-vgojdXpFXk H1 {
+  text-align: left;
+  color: #c1c1c1;
+}
+.cid-vgojdXpFXk .mbr-text,
+.cid-vgojdXpFXk .mbr-section-btn {
+  text-align: left;
+}
+.cid-vgolhl5N9q {
+  background: #1b1e23;
+}
+.cid-vgolhl5N9q .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-vgolhl5N9q .video-block {
     width: 100% !important;
   }
 }
@@ -7928,6 +7900,34 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-vgondCXiPX {
+  padding-top: 75px;
+  padding-bottom: 0px;
+  background-color: #1b1e23;
+}
+.cid-vgondCXiPX P {
+  color: #767676;
+}
+.cid-vgondCXiPX H1 {
+  text-align: left;
+  color: #c1c1c1;
+}
+.cid-vgondCXiPX .mbr-text,
+.cid-vgondCXiPX .mbr-section-btn {
+  text-align: left;
+}
+.cid-vgonku00lv {
+  background: #1b1e23;
+}
+.cid-vgonku00lv .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-vgonku00lv .video-block {
+    width: 100% !important;
+  }
+}
 .cid-vgos43HdW5 {
   padding-top: 75px;
   padding-bottom: 0px;
@@ -7981,34 +7981,6 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 768px) {
   .cid-vgosMqDZJk .video-block {
-    width: 100% !important;
-  }
-}
-.cid-vgoue8O6T3 {
-  padding-top: 75px;
-  padding-bottom: 0px;
-  background-color: #1b1e23;
-}
-.cid-vgoue8O6T3 P {
-  color: #767676;
-}
-.cid-vgoue8O6T3 H1 {
-  text-align: left;
-  color: #c1c1c1;
-}
-.cid-vgoue8O6T3 .mbr-text,
-.cid-vgoue8O6T3 .mbr-section-btn {
-  text-align: left;
-}
-.cid-vgourKVuMn {
-  background: #1b1e23;
-}
-.cid-vgourKVuMn .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-vgourKVuMn .video-block {
     width: 100% !important;
   }
 }
@@ -8068,7 +8040,7 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-vgozJo3qFX {
-  padding-top: 15px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #1b1e23;
   overflow: hidden;
@@ -9608,11 +9580,6 @@ section.lazy-placeholder:after {
 .cid-uA3vJMg4wD .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-uA3vJMg4wD .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-uA3vJMg4wD .collapsed button.navbar-toggler {
   display: block;
 }
@@ -10985,11 +10952,6 @@ section.lazy-placeholder:after {
 .cid-uXHkuVM3Sc .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-uXHkuVM3Sc .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-uXHkuVM3Sc .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-uXHkuVM3Sc .collapsed button.navbar-toggler {
   display: block;
