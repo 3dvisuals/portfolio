@@ -8112,6 +8112,19 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-vgpHpy10RV {
+  padding-top: 15px;
+  padding-bottom: 45px;
+  background-color: #1b1e23;
+}
+.cid-vgpHpy10RV .mbr-text,
+.cid-vgpHpy10RV blockquote {
+  color: #767676;
+}
+.cid-vgpHpy10RV .mbr-text {
+  color: #c1c1c1;
+  text-align: left;
+}
 .cid-uA3vJMg4wD .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -8514,97 +8527,6 @@ section.lazy-placeholder:after {
 .cid-uA3vJMg4wD .nav-link:hover,
 .cid-uA3vJMg4wD .dropdown-item:hover {
   color: #c1c1c1 !important;
-}
-.cid-uXHK8A3IQa {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #1b1e23;
-}
-.cid-uXHK8A3IQa .mbr-text,
-.cid-uXHK8A3IQa blockquote {
-  color: #767676;
-}
-.cid-uXHK8A3IQa .mbr-text {
-  color: #c1c1c1;
-  text-align: left;
-}
-.cid-uEYzuQJAQw {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #1b1e23;
-}
-.cid-uEYzuQJAQw .mbr-text,
-.cid-uEYzuQJAQw blockquote {
-  color: #767676;
-}
-.cid-uEYzuQJAQw .mbr-text {
-  color: #c1c1c1;
-  text-align: left;
-}
-.cid-uEYzunNhsW {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #1b1e23;
-}
-.cid-uEYzunNhsW .mbr-text,
-.cid-uEYzunNhsW blockquote {
-  color: #767676;
-}
-.cid-uEYzunNhsW .mbr-text {
-  color: #c1c1c1;
-  text-align: left;
-}
-.cid-upsWHJyR3t {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #1b1e23;
-}
-.cid-upsWHJyR3t .mbr-text,
-.cid-upsWHJyR3t blockquote {
-  color: #767676;
-}
-.cid-upsWHJyR3t .mbr-text {
-  color: #c1c1c1;
-  text-align: left;
-}
-.cid-upsWHJQI0r {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #1b1e23;
-}
-.cid-upsWHJQI0r .mbr-text,
-.cid-upsWHJQI0r blockquote {
-  color: #767676;
-}
-.cid-upsWHJQI0r .mbr-text {
-  color: #c1c1c1;
-  text-align: left;
-}
-.cid-upsWHK5g7F {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #1b1e23;
-}
-.cid-upsWHK5g7F .mbr-text,
-.cid-upsWHK5g7F blockquote {
-  color: #767676;
-}
-.cid-upsWHK5g7F .mbr-text {
-  color: #c1c1c1;
-  text-align: left;
-}
-.cid-upsWHKkARG {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #1b1e23;
-}
-.cid-upsWHKkARG .mbr-text,
-.cid-upsWHKkARG blockquote {
-  color: #767676;
-}
-.cid-upsWHKkARG .mbr-text {
-  color: #c1c1c1;
-  text-align: left;
 }
 .cid-upsWHKQzgc {
   padding-top: 15px;
