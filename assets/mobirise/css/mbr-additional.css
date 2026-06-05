@@ -7671,6 +7671,18 @@ section.lazy-placeholder:after {
 .cid-vgoi6h6yl7 .mbr-section-btn {
   text-align: left;
 }
+.cid-vlHEauvNkl {
+  background: #1b1e23;
+}
+.cid-vlHEauvNkl .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-vlHEauvNkl .video-block {
+    width: 100% !important;
+  }
+}
 .cid-vgoi7N0Ber {
   padding-top: 15px;
   padding-bottom: 0px;
