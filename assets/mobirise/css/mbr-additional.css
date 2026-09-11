@@ -7736,29 +7736,78 @@ section.lazy-placeholder:after {
 .cid-vgoi6h6yl7 .mbr-section-btn {
   text-align: left;
 }
-.cid-vnUVj9kMdn {
-  background: #1b1e23;
+.cid-vuUG1dy5WL {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #1b1e23;
+  overflow: hidden;
+  box-sizing: border-box;
 }
-.cid-vnUVj9kMdn .video-block {
-  margin: auto;
-  width: 100% !important;
+.cid-vuUG1dy5WL .mbr-slider .carousel-control {
+  background: #1b1b1b;
 }
-@media (max-width: 768px) {
-  .cid-vnUVj9kMdn .video-block {
-    width: 100% !important;
-  }
+.cid-vuUG1dy5WL .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
 }
-.cid-vlHEauvNkl {
-  background: #1b1e23;
+.cid-vuUG1dy5WL .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
 }
-.cid-vlHEauvNkl .video-block {
-  margin: auto;
-  width: 100% !important;
+.cid-vuUG1dy5WL .mbr-slider .modal-body .close {
+  background: #1b1b1b;
 }
-@media (max-width: 768px) {
-  .cid-vlHEauvNkl .video-block {
-    width: 100% !important;
-  }
+.cid-vuUG1dy5WL .row > .row {
+  display: block;
+}
+.cid-vuUG1dy5WL .mbr-gallery-item {
+  width: 100%;
+}
+.cid-vuUG1dy5WL .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+}
+.cid-vuUG1dy5WL .mbr-gallery-item > div {
+  position: relative;
+}
+.cid-vuUG1dy5WL .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-vuUG1dy5WL .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-vuUG1dy5WL .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-vuUG1dy5WL .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #554346, #45505b) !important;
 }
 .cid-vgoi7N0Ber {
   padding-top: 15px;
