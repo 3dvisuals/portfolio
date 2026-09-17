@@ -7882,6 +7882,34 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-vvtGyeGlQQ {
+  padding-top: 75px;
+  padding-bottom: 0px;
+  background-color: #1b1e23;
+}
+.cid-vvtGyeGlQQ P {
+  color: #767676;
+}
+.cid-vvtGyeGlQQ H1 {
+  text-align: left;
+  color: #c1c1c1;
+}
+.cid-vvtGyeGlQQ .mbr-text,
+.cid-vvtGyeGlQQ .mbr-section-btn {
+  text-align: left;
+}
+.cid-vvtGBMTtMW {
+  background: #1b1e23;
+}
+.cid-vvtGBMTtMW .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-vvtGBMTtMW .video-block {
+    width: 100% !important;
+  }
+}
 .cid-vgoowb7B01 {
   padding-top: 75px;
   padding-bottom: 0px;
