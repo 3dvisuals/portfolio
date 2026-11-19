@@ -42,15 +42,18 @@
 		<loc>https://www.3drenderingdesign.com/index.html</loc>
 	</url>
 	<url>
-		<loc>https://www.3drenderingdesign.com/industrial.html</loc>
+		<loc>https://www.3drenderingdesign.com/vrdevelopment.html</loc>
 	</url>
 	<url>
-		<loc>https://www.3drenderingdesign.com/automotive.html</loc>
+		<loc>https://www.3drenderingdesign.com/automotive_viz.html</loc>
 	</url>
 	<url>
-		<loc>https://www.3drenderingdesign.com/interact.html</loc>
+		<loc>https://www.3drenderingdesign.com/interactive.html</loc>
 	</url>
 	<url>
-		<loc>https://www.3drenderingdesign.com/videogame.html</loc>
+		<loc>https://www.3drenderingdesign.com/industrialviz.html</loc>
+	</url>
+	<url>
+		<loc>https://www.3drenderingdesign.com/Architectureviz.html</loc>
 	</url>
 </urlset>
